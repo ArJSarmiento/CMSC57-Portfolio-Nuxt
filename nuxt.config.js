@@ -1,7 +1,9 @@
 export default {
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
-
+    router: {
+        base: '/CMSC57-Portfolio-Nuxt/'
+    },
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'CMSC57Portfolio',
