@@ -1,28 +1,22 @@
 <template>
   <div>
-    <router-link to="{params: link}">
-       <img :src="require(`../assets/${img}`)" />
-    </router-link>
-    <h3>{{title}}</h3>
-    <p>{{sub}}</p>
+    <NuxtLink :to="topic.link">
+       <img
+        :src="require(`../assets/${topic.img}`)"
+       />
+    </NuxtLink>
+    <h4>{{topic.title}}</h4>
+    <p>{{topic.sub}}</p>
   </div>
 </template>
 
 <script>
 export default {
-  props: {
-    img: String,
-    title: String,
-    sub: String,
-    link: String
-  }
+  props: ['topic']
 }
 </script>
 
-<style lang="scss" scoped">
-  div{
-    width: 250px !important;
-  }
+<style lang="scss" scoped>
   img{
     width: 100%;
     height: auto;

@@ -1,17 +1,24 @@
 <template>
   <nav>
-    <NuxtLink to="/" class="iconLink">
+    <NuxtLink data-aos="slide-down" to="/" class="iconLink">
       <img src="~/static/img/icon.png" alt="logo">
       <span>Home</span>
     </NuxtLink>
   </nav>
 </template>
 
+<script>
+import aosMixin from '~/mixins.js/aos'
+export default {
+  mixins: [aosMixin]
+}
+</script>
+
 <style lang="scss" scoped>
   nav{
     position: fixed;
     top: 0;
-
+    z-index: 999;
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.8);

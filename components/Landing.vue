@@ -1,18 +1,20 @@
 <template>
   <section>
     <div class="text">
-      <h2>{{title}}</h2>
-      <h1>{{mainTitle}}</h1>
+      <h2 data-aos="fade-down">{{title}}</h2>
+      <h1 data-aos="fade-down">{{mainTitle}}</h1>
       <div>
-        <p>{{sub1}}</p>
-        <p>{{sub2}}</p>
+        <p data-aos="fade-down">{{sub1}}</p>
+        <p data-aos="fade-down">{{sub2}}</p>
       </div>
     </div>
-    <img src="~/static/svg/erdos.svg" alt="Paul Erdős">
+    <img src="~/static/svg/erdos.svg" alt="Paul Erdős" data-aos="fade-down">
   </section>
 </template>
 <script>
+import aosMixin from '~/mixins.js/aos'
 export default {
+  mixins: [aosMixin],
   data() {
     return {
       title: "Discrete  Mathematics in Computer Science II",

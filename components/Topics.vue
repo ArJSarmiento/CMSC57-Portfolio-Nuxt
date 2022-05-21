@@ -1,20 +1,20 @@
 <template>
   <section>
-    <h1>Topics</h1>
+    <h1 data-aos="fade-down">Topics</h1>
     <div class="topicsGrid">
       <Topic
         v-for="t in topics"
         :key="t.id"
-        :img=t.img
-        :title="t.title"
-        :sub="t.sub"
-        :link="t.link"
+        :topic="t"
+        data-aos="fade-down"
       />
     </div>
   </section>
 </template>
 <script>
+import aosMixin from '~/mixins.js/aos'
 export default {
+  mixins: [aosMixin],
   data (){
     return {
     topics:[
@@ -94,6 +94,7 @@ export default {
     display:grid;
     grid-template-columns: 1fr;
     margin: 10vh 0;
+    padding: 0 10vw;
     gap: 30px;
     align-items: center;
     justify-items: center;
@@ -103,9 +104,11 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    align-items: center;
   }
   @media only screen and (max-width: 472px) {
+    section{
+      padding: 0;
+    }
     .topicsGrid{
       grid-template-columns: 1fr 1fr ;
     }
