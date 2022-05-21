@@ -1,4 +1,4 @@
-# CMSC57Portfolio
+# CMSC57Portfolio with Nuxt JS
 
 ## Build Setup
 
