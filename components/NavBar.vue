@@ -24,7 +24,7 @@ export default {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     width: 100%;
-    height: 15vh;
+    height: 12vh;
   }
   .iconLink {
     display: flex;

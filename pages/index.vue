@@ -21,13 +21,13 @@ export default {
 <style>
   main {
     padding: 0;
-    margin: 15vh 0;
+    margin: 12vh 0;
     width: 100vw;
     padding: 0 5vw;
   }
   @media only screen and (max-width: 472px) {
     main{
-      padding: 7.5vw;
+      padding: 10px 7.5vw;
     }
   }
 </style>
