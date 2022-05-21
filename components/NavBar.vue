@@ -2,7 +2,7 @@
   <nav>
     <NuxtLink to="/" class="iconLink">
       <img src="~/static/img/icon.png" alt="logo">
-      <span>CMSC 57 Portfolio</span>
+      <span>Home</span>
     </NuxtLink>
   </nav>
 </template>
@@ -15,21 +15,21 @@
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.8);
-
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 15vh;
   }
   .iconLink {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px 45px;
     margin: 0;
     text-decoration: none;
 
     span{
-      color:black;
-      font-weight: 600;
-      font-size: 1.5rem;
+      color:#2D2D2D;
+      font-size: 1rem;
+      margin-left: 10px;
     }
 
     img{

@@ -1,0 +1,20 @@
+:root {
+    --main-font: 'Epilogue', sans-serif;
+    --main-color: #2D2D2D;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

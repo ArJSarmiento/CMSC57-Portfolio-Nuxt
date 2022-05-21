@@ -1,20 +1,18 @@
 <template>
   <main>
-    <Landing/>
-    <Topics/>
+
   </main>
 </template>
 
 <script>
-import Landing from '../components/Landing.vue'
 export default {
     layout: "default",
     head() {
         return {
-            title: "Home"
+            title: "Basics of Counting"
         };
     },
-    components: { Landing }
+
 }
 </script>
 

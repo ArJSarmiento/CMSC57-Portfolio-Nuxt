@@ -15,13 +15,16 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/img/icon.png' }
+            { rel: 'icon', type: 'image/x-icon', href: '/img/icon.png' },
+            { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Epilogue&display=swap" },
+
         ]
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
-        'view-design/dist/styles/iview.css'
+        'view-design/dist/styles/iview.css',
+        '~/assets/css/main'
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
