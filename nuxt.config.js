@@ -32,7 +32,7 @@ export default {
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
         '@/plugins/view-ui',
-        '@/plugins/particles'
+        { src: "~plugins/vue-particles", ssr: false }
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components

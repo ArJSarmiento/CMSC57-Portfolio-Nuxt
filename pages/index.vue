@@ -1,6 +1,5 @@
 <template>
   <main>
-    <!-- <Particlescomponent/> -->
     <Landing/>
     <Topics/>
   </main>

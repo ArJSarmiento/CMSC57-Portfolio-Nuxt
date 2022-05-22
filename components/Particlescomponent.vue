@@ -1,81 +1,22 @@
 <template>
   <!-- particle component-->
   <div>
-    <VueParticles id="tsparticles" height={window.outerHeight} :particlesInit="particlesInit"
-      :particlesLoaded="particlesLoaded" :options="{
-        fpsLimit: 60,
-        interactivity: {
-          detectsOn: 'canvas',
-          events: {
-            onClick: {
-              enable: true,
-              mode: 'push'
-            },
-            onHover: {
-              enable: true,
-              mode: 'repulse'
-            },
-            resize: true
-          },
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40
-            },
-            push: {
-              quantity: 4
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4
-            }
-          }
-        },
-        particles: {
-          color: {
-            value: '#2D2D2D'
-          },
-          links: {
-            color: '#2D2D2D',
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1
-          },
-          collisions: {
-            enable: true
-          },
-          move: {
-            direction: 'none',
-            enable: true,
-            outMode: 'bounce',
-            random: false,
-            speed: 6,
-            straight: false
-          },
-          number: {
-            density: {
-              enable: true,
-              value_area: 800
-            },
-            value: 80
-          },
-          opacity: {
-            value: 0.5
-          },
-          shape: {
-            type: 'circle'
-          },
-          size: {
-            random: true,
-            value: 5
-          }
-        },
-        detectRetina: true
-      }" />
-
+    <no-ssr>
+      <vue-particles
+        color="#2D2D2D"
+        linesColor="#2D2D2D"
+        shapeType="edge"
+        :particlesNumber="100"
+        :lineWidth="1"
+        :lineOpacity="0.5"
+        :lineDistance="100"
+        :lineSpeed="0.5"
+        :particleRadius="2"
+        :particleOpacity="0.8"
+        :particleSpeed="0.2"
+        :moveSpeed="0.5"
+        />
+    </no-ssr>
   </div>
 
 </template>
@@ -86,7 +27,7 @@ export default {
 </script>
 <style scoped>
 #tsparticles {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: -1;
 }

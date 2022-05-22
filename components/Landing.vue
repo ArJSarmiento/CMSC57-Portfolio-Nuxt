@@ -1,5 +1,8 @@
 <template>
   <section>
+    <div class="bg">
+      <Particlescomponent/>
+    </div>
     <div class="text">
       <h2 data-aos="fade-down">{{title}}</h2>
       <h1 data-aos="fade-down">{{mainTitle}}</h1>
@@ -27,6 +30,15 @@ export default {
 
 </script>
 <style lang="scss" scoped>
+  .bg{
+    position:absolute;
+    top:12vh;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+
   section{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -58,6 +70,7 @@ export default {
   img{
     height: 80vh;
     width: auto;
+    z-index: 2;
   }
 
   @media only screen and (max-width: 953px) {
