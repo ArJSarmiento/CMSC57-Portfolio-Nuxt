@@ -1,8 +1,7 @@
 <template>
   <!-- particle component-->
   <div>
-
-    <Particles id="tsparticles" height={window.outerHeight} :particlesInit="particlesInit"
+    <VueParticles id="tsparticles" height={window.outerHeight} :particlesInit="particlesInit"
       :particlesLoaded="particlesLoaded" :options="{
         fpsLimit: 60,
         interactivity: {

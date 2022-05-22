@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Particlescomponent/>
+    <!-- <Particlescomponent/> -->
     <Landing/>
     <Topics/>
   </main>
@@ -8,8 +8,6 @@
 
 <script>
 import Landing from '../components/Landing.vue'
-const Particlescomponent = () =>
-  import("@/components/Particlescomponent");
 export default {
     layout: "default",
     head() {
@@ -19,7 +17,6 @@ export default {
     },
     components: {
       Landing,
-      Particlescomponent,
     }
 }
 </script>
