@@ -14,15 +14,15 @@
 <script>
 import aosMixin from '~/mixins.js/aos'
 export default {
-  mixins: [aosMixin],
-  data() {
-    return {
-      title: "Discrete  Mathematics in Computer Science II",
-      mainTitle: "CMSC 57 PORTFOLIO",
-      sub1: "“Mathematics is a machine that turns coffee into theorems”",
-      sub2: "-Paul Erdős, Father of Discrete Mathematics"
-    };
-  }
+    mixins: [aosMixin],
+    data() {
+        return {
+            title: "Discrete  Mathematics in Computer Science II",
+            mainTitle: "CMSC 57 PORTFOLIO",
+            sub1: "“Mathematics is a machine that turns coffee into theorems”",
+            sub2: "-Paul Erdős, Father of Discrete Mathematics"
+        };
+    },
 };
 
 </script>

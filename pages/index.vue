@@ -1,5 +1,6 @@
 <template>
   <main>
+    <Particlescomponent/>
     <Landing/>
     <Topics/>
   </main>
@@ -7,6 +8,8 @@
 
 <script>
 import Landing from '../components/Landing.vue'
+const Particlescomponent = () =>
+  import("@/components/Particlescomponent");
 export default {
     layout: "default",
     head() {
@@ -14,11 +17,14 @@ export default {
             title: "Home"
         };
     },
-    components: { Landing }
+    components: {
+      Landing,
+      Particlescomponent,
+    }
 }
 </script>
 
-<style>
+<style scoped>
   main {
     padding: 0;
     margin: 12vh 0;
@@ -28,6 +34,7 @@ export default {
   @media only screen and (max-width: 472px) {
     main{
       padding: 10px 7.5vw;
+      margin-bottom: 0;
     }
   }
 </style>

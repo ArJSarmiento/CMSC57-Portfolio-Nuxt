@@ -13,6 +13,7 @@
         "aos": "^2.3.4",
         "core-js": "^3.19.3",
         "nuxt": "^2.15.8",
+        "particles.vue": "^3.0.6",
         "view-design": "^4.7.0",
         "vue": "^2.6.14",
         "vue-server-renderer": "^2.6.14",
