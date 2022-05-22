@@ -17,7 +17,7 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/img/icon.png' },
+            { rel: 'icon', type: 'image/x-icon', href: 'CMSC57-Portfolio-Nuxt/img/icon.png' },
             { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Epilogue&display=swap" },
 
         ]
