@@ -20,10 +20,10 @@ export default {
     mixins: [aosMixin],
     data() {
         return {
-            title: "Discrete  Mathematics in Computer Science II",
+            title: "Discrete Mathematical Structures in Computer Science II",
             mainTitle: "CMSC 57 PORTFOLIO",
             sub1: "“Mathematics is a machine that turns coffee into theorems”",
-            sub2: "-Paul Erdős, Father of Discrete Mathematics"
+            sub2: "- Paul Erdős, Father of Discrete Mathematics"
         };
     },
 };
@@ -35,7 +35,7 @@ export default {
     top:12vh;
     left:0;
     width:100vw;
-    height: 100vh;
+    height: 80vh;
     z-index: 1;
   }
 

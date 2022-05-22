@@ -110,7 +110,7 @@ export default {
       padding: 0;
     }
     .topicsGrid{
-      grid-template-columns: 1fr 1fr ;
+      grid-template-columns: 1fr 1fr;
     }
   }
 </style>

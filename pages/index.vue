@@ -1,7 +1,9 @@
 <template>
   <main>
     <Landing/>
-    <Topics/>
+    <div class="topicCont">
+      <Topics/>
+    </div>
   </main>
 </template>
 
@@ -21,6 +23,9 @@ export default {
 </script>
 
 <style scoped>
+  .topicCont{
+    z-index: 2;
+  }
   main {
     padding: 0;
     margin: 12vh 0;

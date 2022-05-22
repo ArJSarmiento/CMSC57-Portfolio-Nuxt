@@ -15,14 +15,14 @@
       <p data-aos="fade-down">
         &emsp;The main principles introduced in this lesson were the Product Rule and
         the Sum Rule. The product rule or multiplication principle states that
-        if there are a ways of doing something and b ways of doing another
-        thing, then there are a · b ways of performing both actions.
+        if there are <i>a</i> ways of doing something and <i>b</i> ways of doing another
+        thing, then there are <i>a</i> · <i>b</i> ways of performing both actions.
       </p>
         <img src="~/static/img/l1/productRule.png" data-aos="fade-down" alt="product rule">
       <p data-aos="fade-down">
-        &emsp;The Sum rule, on the other hand, states that if a task can be done
-        either in one of a ways or in one of b ways, where none of the set of a
-        ways is the same as any of the set of b ways, then there are a+b ways to
+        &emsp;The Sum rule, on the other hand, states that if <i>a</i> task can be done
+        either in one of <i>a</i> ways or in one of <i>b</i> ways, where none of the set of <i>a</i>
+        ways is the same as any of the set of <i>b</i> ways, then there are <i>a</i>+<i>b</i> ways to
         do the task.
       </p>
         <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
@@ -38,12 +38,12 @@
       <p data-aos="fade-down">
         &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
         string with an x in them we must subtract this with the number of strings with out an x which is
-        256<sup>5</sup>. Therefore, 266<sup>5</sup>-256<sup>5</sup> is equal to 2,115,751.
+        25<sup>5</sup>. Therefore, the answer is 26<sup>5</sup>-25<sup>5</sup> which is equal to 2,115,751.
       </p>
       <p data-aos="fade-down">
         &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
         online system it's amazing how unlikely a user can just guess a password considering how large the result is.
-        It's much more mind-blowing if you realize that we know this fact because of the utilization of the simple rules
+        It's much more mind-blowing if you realize that we know this fact by using the simple rules we
         mentioned above.
       </p>
       <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >

@@ -6,13 +6,14 @@
         color="#2D2D2D"
         linesColor="#2D2D2D"
         shapeType="edge"
-        :particlesNumber="100"
+        out_mode="bounce"
+        :particlesNumber="80"
         :lineWidth="1"
         :lineOpacity="0.5"
         :lineDistance="100"
         :lineSpeed="0.5"
         :particleRadius="2"
-        :particleOpacity="0.8"
+        :particleOpacity="0.5"
         :particleSpeed="0.2"
         :moveSpeed="0.5"
         />
@@ -29,6 +30,7 @@ export default {
 #tsparticles {
   position: fixed;
   width: 100%;
+  height: 100%;
   z-index: -1;
 }
 </style>

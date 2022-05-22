@@ -2,7 +2,7 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-        <img src="~/assets/t1.png" data-aos="fade-down" alt="counting"/>
+        <img src="~/assets/t3.png" data-aos="fade-down" alt="counting"/>
       <p data-aos="fade-down">
         &emsp;The starting lessons of Discrete Mathematical Structures in Computer
         Science II were certainly not what I have expected. At first, I thought
@@ -58,12 +58,12 @@ export default {
   layout: "default",
   data() {
     return {
-      title: "Basics of Counting",
+      title: "Generating Permutations and Combinations",
     };
   },
   head() {
     return {
-      title: "Basics of Counting",
+      title: "Generating Permutations and Combinations",
     };
   },
 };
