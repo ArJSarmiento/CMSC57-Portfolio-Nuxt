@@ -96,6 +96,7 @@ code{
 
 h2{
   justify-content: center;
+  text-align: center;
   font-weight: 600;
   line-height: 30px;
 }

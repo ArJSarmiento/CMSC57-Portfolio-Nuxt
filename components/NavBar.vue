@@ -1,10 +1,10 @@
 <template>
-  <nav>
-    <NuxtLink data-aos="slide-down" to="/" class="iconLink">
+  <header>
+    <NuxtLink to="/" class="iconLink">
       <img src="~/static/img/icon.png" alt="logo">
       <span>Home</span>
     </NuxtLink>
-  </nav>
+  </header>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  nav{
+  header{
     position: fixed;
     top: 0;
     z-index: 999;
@@ -48,7 +48,7 @@ export default {
     span{
       display: none;
     }
-    nav, .iconLink {
+    header, .iconLink {
       justify-content: center;
     }
   }

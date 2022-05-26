@@ -2,51 +2,42 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-        <img src="~/assets/t4.png" data-aos="fade-down" alt="counting"/>
+      <img src="~/assets/t4.png" data-aos="fade-down" alt="counting" />
       <p data-aos="fade-down">
-        &emsp;The starting lessons of Discrete Mathematical Structures in Computer
-        Science II were certainly not what I have expected. At first, I thought
-        we would dive deeper into the previous semester’s topic on linear
-        algebra and its applications in computer science. I was surprised when
-        we started off with a much easier topic of Basic Counting Principles.
-        Little did I know that this lesson would be the foundation of what was
-        yet to come.
+        &emsp;For me, the topic of Algebraic Structure and Groups has been the newest and most challenging concept I
+        have ever encountered in the course. I simply have never encountered something like it.
       </p>
       <p data-aos="fade-down">
-        &emsp;The main principles introduced in this lesson were the Product Rule and
-        the Sum Rule. The product rule or multiplication principle states that
-        if there are a ways of doing something and b ways of doing another
-        thing, then there are a · b ways of performing both actions.
+        &emsp;At first, the introduction with symmetries of the square and its segway toward binary operations was very
+        unintuitive for me. It was only when I learned the topic of groups that I found their connection. To review, a
+        group is a set <i>S</i>  and a binary operation <span><img src="~/static/img/l4/operation.png" alt="operation"></span> such that:
       </p>
-        <img src="~/static/img/l1/productRule.png" data-aos="fade-down" alt="product rule">
+      <ol data-aos="fade-down">
+        <li>
+          <span><img src="~/static/img/l4/operation.png" alt="operation"></span> is associative for all elements in <i>S</i>
+        </li>
+        <li>
+          There exists an identity element <i>e</i> for all elements in <i>S</i>
+        </li>
+        <li>
+          There exists an inverse element <i>e</i> for all elements in <i>S</i>
+        </li>
+      </ol>
+      <img src="~/static/img/l4/symmetries.png" data-aos="fade-down" alt="product rule" class="code">
       <p data-aos="fade-down">
-        &emsp;The Sum rule, on the other hand, states that if a task can be done
-        either in one of a ways or in one of b ways, where none of the set of a
-        ways is the same as any of the set of b ways, then there are a+b ways to
-        do the task.
+        &emsp;Knowing this, I was amazed to see how this can be used to model geometric patterns such as the symmetries
+        of the square problem we have encountered previously. Later on, I learned more examples of groups through the
+        materials with modular/clock arithmetic as its prime example.
       </p>
-        <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
-      <p data-aos="fade-down" >
-        &emsp;These principle can be applied in almost any field of mathematics but in the course, it is often used in
-        combinations and permutations. I was fascinated by how such a simple principle could be applied in so many
-        industries.
-        One common problem that intrigued me was the one below:
-      </p>
-      <code>
-        How many strings are there of 5 lowercase alphabet letters that have the letter ‘x’ in them? The same letter can repeat multiple times in the same string?
-      </code>
+      <img src="~/static/img/l4/clock.jpg" data-aos="fade-down" alt="sum rule">
       <p data-aos="fade-down">
-        &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
-        string with an x in them we must subtract this with the number of strings with out an x which is
-        256<sup>5</sup>. Therefore, 266<sup>5</sup>-256<sup>5</sup> is equal to 2,115,751.
+        &emsp;I also had a wonderful time implementing the Euclidean Algorithms in Python to find the modular
+        multiplicative inverse and GCD. Implementing the algorithm certainly made the lab exercises much easier. It
+        probably took me days before really grasping the distinction between Groups, Rings, and Fields but in the end,
+        it was really rewarding. I really look forward to see what else is in store for this topic as I move forward in my
+        journey in computer science.
       </p>
-      <p data-aos="fade-down">
-        &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
-        online system it's amazing how unlikely a user can just guess a password considering how large the result is.
-        It's much more mind-blowing if you realize that we know this fact because of the utilization of the simple rules
-        mentioned above.
-      </p>
-      <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >
+      <img src="~/static/img/l4/algo.gif" data-aos="fade-down" alt="euclidean" class="code">
     </section>
   </main>
 </template>
@@ -69,7 +60,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 main {
   margin: 12vh 0;
   width: 100vw;
@@ -81,6 +72,14 @@ main {
   gap: 30px;
 }
 
+span{
+  img{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
 section {
   width: 100%;
   display: grid;
@@ -89,30 +88,34 @@ section {
   gap: 20px;
 }
 
-code{
+code {
   text-align: center;
-  margin:10px 0;
+  margin: 10px 0;
 }
 
-h2{
+h2 {
   justify-content: center;
+  text-align: center;
   font-weight: 600;
   line-height: 30px;
 }
 
-p{
+p, li {
   text-align: justify;
   font-weight: 500;
   font-size: 1rem;
   line-height: 35px;
 }
 
-img{
+img {
   max-height: 50vh;
   width: auto;
   padding: 10px;
 
   border-radius: 15px;
+}
+.code {
+  max-height: 70vh;
 }
 
 @media only screen and (max-width: 472px) {
@@ -120,9 +123,10 @@ img{
     margin-bottom: 5vh;
     padding: 0 7.5vw;
   }
+
   img {
-    width: 100% ;
-    height: auto ;
+    width: 100%;
+    height: auto;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="topicCont">
     <NuxtLink :to="topic.link" >
       <div class="imgLink">
         <img
@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .topicCont{
+    position: relative;
+    z-index: 2;
+    background: white;
+  }
   .imgLink {
     width: 100%;
     background-color: #fff;

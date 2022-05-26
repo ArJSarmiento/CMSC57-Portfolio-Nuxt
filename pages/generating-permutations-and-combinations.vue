@@ -2,51 +2,49 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-        <img src="~/assets/t3.png" data-aos="fade-down" alt="counting"/>
+      <img src="~/assets/t3.png" data-aos="fade-down" alt="generating" />
       <p data-aos="fade-down">
-        &emsp;The starting lessons of Discrete Mathematical Structures in Computer
-        Science II were certainly not what I have expected. At first, I thought
-        we would dive deeper into the previous semester’s topic on linear
-        algebra and its applications in computer science. I was surprised when
-        we started off with a much easier topic of Basic Counting Principles.
-        Little did I know that this lesson would be the foundation of what was
-        yet to come.
+        &emsp;The power of the Basic Counting Principles in combinatorics really
+        takes center stage when certain algorithms come into play. These
+        algorithms were introduced to us in spectacular fashion when we
+        discussed Generating Permutations and Combinations. This topic was one
+        that I was very excited to work with since it involved a bit of
+        programming in Python.
       </p>
+      <img
+        src="~/static/img/l3/python.png"
+        data-aos="fade-down"
+        alt="python"
+      />
       <p data-aos="fade-down">
-        &emsp;The main principles introduced in this lesson were the Product Rule and
-        the Sum Rule. The product rule or multiplication principle states that
-        if there are a ways of doing something and b ways of doing another
-        thing, then there are a · b ways of performing both actions.
+        &emsp;The topic consisted of the basic concept of lexicographical order
+        and some pseudocode of the aforementioned algorithms. The fun really
+        started during the problem sets wherein we were required to program
+        those algorithms ourselves. At first, it was a bit daunting considering
+        how complex it was compared to our other programming tasks, but I was
+        thrilled when I finally got it to work.
       </p>
-        <img src="~/static/img/l1/productRule.png" data-aos="fade-down" alt="product rule">
+      <img
+        src="~/static/img/l3/combinations.gif"
+        data-aos="fade-down"
+        alt="combination"
+        class="code"
+      />
       <p data-aos="fade-down">
-        &emsp;The Sum rule, on the other hand, states that if a task can be done
-        either in one of a ways or in one of b ways, where none of the set of a
-        ways is the same as any of the set of b ways, then there are a+b ways to
-        do the task.
+        &emsp;The thought that I am still a Computer Science Freshman and I just
+        made a program that could try every possible password of an online
+        system certainly cemented my belief in the value of cybersecurity. I
+        could only imagine the level of sophistication needed to make an
+        algorithm that can crack a much more modern and secure website. I am
+        really excited to find out what else is in store in the world of
+        combinatorics and their applications in Computer Science.
       </p>
-        <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
-      <p data-aos="fade-down" >
-        &emsp;These principle can be applied in almost any field of mathematics but in the course, it is often used in
-        combinations and permutations. I was fascinated by how such a simple principle could be applied in so many
-        industries.
-        One common problem that intrigued me was the one below:
-      </p>
-      <code>
-        How many strings are there of 5 lowercase alphabet letters that have the letter ‘x’ in them? The same letter can repeat multiple times in the same string?
-      </code>
-      <p data-aos="fade-down">
-        &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
-        string with an x in them we must subtract this with the number of strings with out an x which is
-        256<sup>5</sup>. Therefore, 266<sup>5</sup>-256<sup>5</sup> is equal to 2,115,751.
-      </p>
-      <p data-aos="fade-down">
-        &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
-        online system it's amazing how unlikely a user can just guess a password considering how large the result is.
-        It's much more mind-blowing if you realize that we know this fact because of the utilization of the simple rules
-        mentioned above.
-      </p>
-      <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >
+      <img
+        src="~/static/img/l3/permutations.gif"
+        data-aos="fade-down"
+        alt="permutation"
+        class="code"
+      />
     </section>
   </main>
 </template>
@@ -89,30 +87,34 @@ section {
   gap: 20px;
 }
 
-code{
+code {
   text-align: center;
-  margin:10px 0;
+  margin: 10px 0;
 }
 
-h2{
+h2 {
   justify-content: center;
   font-weight: 600;
   line-height: 30px;
 }
 
-p{
+p {
   text-align: justify;
   font-weight: 500;
   font-size: 1rem;
   line-height: 35px;
 }
 
-img{
+img {
   max-height: 50vh;
   width: auto;
   padding: 10px;
 
   border-radius: 15px;
+}
+
+.code {
+  max-height: 70vh;
 }
 
 @media only screen and (max-width: 472px) {
@@ -121,8 +123,8 @@ img{
     padding: 0 7.5vw;
   }
   img {
-    width: 100% ;
-    height: auto ;
+    width: 100% !important;
+    height: auto !important;
   }
 }
 </style>
