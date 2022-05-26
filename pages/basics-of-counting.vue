@@ -108,11 +108,9 @@ p{
   line-height: 35px;
 }
 
-img{
+img {
   max-height: 50vh;
   width: auto;
-  padding: 10px;
-
   border-radius: 15px;
 }
 

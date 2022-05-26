@@ -2,51 +2,79 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-        <img src="~/assets/t5.png" data-aos="fade-down" alt="counting"/>
+      <img src="~/assets/t5.png" data-aos="fade-down" alt="counting" />
       <p data-aos="fade-down">
-        &emsp;The starting lessons of Discrete Mathematical Structures in Computer
-        Science II were certainly not what I have expected. At first, I thought
-        we would dive deeper into the previous semester’s topic on linear
-        algebra and its applications in computer science. I was surprised when
-        we started off with a much easier topic of Basic Counting Principles.
-        Little did I know that this lesson would be the foundation of what was
-        yet to come.
+        &emsp;The previous lessons established that with the topic of Basics of
+        Counting with Combinatorics we are able to calculate the number of
+        possibilities in which an event can occur. I realized that we can now
+        apply this with Probability Theory to solve much more complex
+        probability problems. But first, we must define probability as the
+        number of times an event can occur over the number of trials.
       </p>
+      <img
+        src="~/static/img/l5/definition.png"
+        data-aos="fade-down"
+        alt="definition"
+      />
       <p data-aos="fade-down">
-        &emsp;The main principles introduced in this lesson were the Product Rule and
-        the Sum Rule. The product rule or multiplication principle states that
-        if there are a ways of doing something and b ways of doing another
-        thing, then there are a · b ways of performing both actions.
+        &emsp;You can really appreciate how these concepts interrelate to solve
+        problems that are often difficult to solve without the other. An example
+        is the problem below.
       </p>
-        <img src="~/static/img/l1/productRule.png" data-aos="fade-down" alt="product rule">
-      <p data-aos="fade-down">
-        &emsp;The Sum rule, on the other hand, states that if a task can be done
-        either in one of a ways or in one of b ways, where none of the set of a
-        ways is the same as any of the set of b ways, then there are a+b ways to
-        do the task.
-      </p>
-        <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
-      <p data-aos="fade-down" >
-        &emsp;These principle can be applied in almost any field of mathematics but in the course, it is often used in
-        combinations and permutations. I was fascinated by how such a simple principle could be applied in so many
-        industries.
-        One common problem that intrigued me was the one below:
-      </p>
-      <code>
-        How many strings are there of 5 lowercase alphabet letters that have the letter ‘x’ in them? The same letter can repeat multiple times in the same string?
+      <code data-aos="fade-down">
+        &emsp;When we randomly select a permutation of {1, 2, 3}, what is the
+        probability that 1 precedes 3?
       </code>
       <p data-aos="fade-down">
-        &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
-        string with an x in them we must subtract this with the number of strings with out an x which is
-        256<sup>5</sup>. Therefore, 266<sup>5</sup>-256<sup>5</sup> is equal to 2,115,751.
+        &emsp;To solve this problem we must generate all the permutations of {1,
+        2, 3} in which there are 3! = 6.
+      </p>
+      <p data-aos="fade-down">These are:</p>
+      <code data-aos="fade-down">
+        {1, 2, 3} {1, 3, 2} {2, 1, 3} {2, 3, 1} {3, 1, 2} {3, 2, 1}
+      </code>
+      <p data-aos="fade-down">
+        &emsp;Among them, only the following show 1 precedes:
+      </p>
+      <code data-aos="fade-down"> {1, 2, 3} {1, 3, 2} {2, 1, 3} </code>
+      <p data-aos="fade-down">
+        &emsp;Therefore, the probability of 1 preceding 3 is 3/6 or 0.5.
       </p>
       <p data-aos="fade-down">
-        &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
-        online system it's amazing how unlikely a user can just guess a password considering how large the result is.
-        It's much more mind-blowing if you realize that we know this fact because of the utilization of the simple rules
-        mentioned above.
+        &emsp;Below are other probability theorems that I also found useful in
+        probability problems and more advanced topics such as Bayes Theorem.
       </p>
-      <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >
+      <img src="~/static/img/l5/and.svg" data-aos="fade-down" alt="and" />
+      <img src="~/static/img/l5/or.svg" data-aos="fade-down" alt="ot" />
+      <img src="~/static/img/l5/not.svg" data-aos="fade-down" alt="not" />
+      <img src="~/static/img/l5/given.svg" data-aos="fade-down" alt="given" />
+      <p data-aos="fade-down">
+        Another concept that has fascinated me in this lecture was the Bernoulli
+        trial which is each performance of an experiment with two possible
+        outcomes such as a series of bits or a toss of a coin. The formula for
+        finding the probability of exactly <i>k</i> successes in
+        <i>n</i> independent Bernoulli trial with a probability of success
+        <i>p</i> and probability of failure <i>q</i> is expressed as:
+      </p>
+      <img
+        src="~/static/img/l5/bernoulli.png"
+        data-aos="fade-down"
+        alt="bernoulli"
+      />
+      <p data-aos="fade-down">
+        I find this to be incredibly useful in assessing the probability of
+        guessing the value of random tasks like a coin flip. I also have
+        encountered numerous problems that have been modeled from this principle
+        such as the life and death distribution of a department of a hospital
+        and many others.
+      </p>
+      <p data-aos="fade-down">
+        The world of probability is vast and filled with sophisticated
+        principles which dictate all events in the universe. With the proper
+        knowledge of these principles, we can predict and manipulate the choice
+        of the dice who play god.
+      </p>
+      <img src="~/static/img/l5/coin.jpg" data-aos="fade-down" alt="coin" />
     </section>
   </main>
 </template>
@@ -89,26 +117,26 @@ section {
   gap: 20px;
 }
 
-code{
+code {
   text-align: center;
-  margin:10px 0;
+  margin: 10px 0;
 }
 
-h2{
+h2 {
   justify-content: center;
   text-align: center;
   font-weight: 600;
   line-height: 30px;
 }
 
-p{
+p {
   text-align: justify;
   font-weight: 500;
   font-size: 1rem;
   line-height: 35px;
 }
 
-img{
+img {
   max-height: 50vh;
   width: auto;
   padding: 10px;
@@ -121,9 +149,10 @@ img{
     margin-bottom: 5vh;
     padding: 0 7.5vw;
   }
+
   img {
-    width: 100% ;
-    height: auto ;
+    width: 100%;
+    height: auto;
   }
 }
 </style>

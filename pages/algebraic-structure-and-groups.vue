@@ -34,7 +34,7 @@
         &emsp;I also had a wonderful time implementing the Euclidean Algorithms in Python to find the modular
         multiplicative inverse and GCD. Implementing the algorithm certainly made the lab exercises much easier. It
         probably took me days before really grasping the distinction between Groups, Rings, and Fields but in the end,
-        it was really rewarding. I really look forward to see what else is in store for this topic as I move forward in my
+        it was really rewarding. I really look forward to seeing what else is in store for this topic as I move forward in my
         journey in computer science.
       </p>
       <img src="~/static/img/l4/algo.gif" data-aos="fade-down" alt="euclidean" class="code">
@@ -110,8 +110,6 @@ p, li {
 img {
   max-height: 50vh;
   width: auto;
-  padding: 10px;
-
   border-radius: 15px;
 }
 .code {

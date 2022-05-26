@@ -104,8 +104,6 @@ p {
 img {
   max-height: 50vh;
   width: auto;
-  padding: 10px;
-
   border-radius: 15px;
 }
 
