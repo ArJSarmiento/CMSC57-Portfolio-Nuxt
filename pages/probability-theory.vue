@@ -4,8 +4,8 @@
     <section>
       <img src="~/assets/t5.png" data-aos="fade-down" alt="counting" />
       <p data-aos="fade-down">
-        &emsp;The previous lessons established that with the topic of Basics of
-        Counting with Combinatorics we are able to calculate the number of
+        &emsp;The previous lessons established that with the topic of <NuxtLink to="/basics-of-counting">Basics of
+        Counting</NuxtLink> with Combinatorics we are able to calculate the number of
         possibilities in which an event can occur. I realized that we can now
         apply this with Probability Theory to solve much more complex
         probability problems. But first, we must define probability as the
@@ -34,7 +34,7 @@
         {1, 2, 3} {1, 3, 2} {2, 1, 3} {2, 3, 1} {3, 1, 2} {3, 2, 1}
       </code>
       <p data-aos="fade-down">
-        &emsp;Among them, only the following show 1 precedes:
+        &emsp;Among them, only the following show that 1 precedes 3:
       </p>
       <code data-aos="fade-down"> {1, 2, 3} {1, 3, 2} {2, 1, 3} </code>
       <p data-aos="fade-down">
@@ -42,16 +42,16 @@
       </p>
       <p data-aos="fade-down">
         &emsp;Below are other probability theorems that I also found useful in
-        probability problems and more advanced topics such as Bayes Theorem.
+        probability problems and more advanced topics such as <NuxtLink to="/bayes-theorem">Bayes Theorem</NuxtLink>.
       </p>
-      <img src="~/static/img/l5/and.svg" data-aos="fade-down" alt="and" />
-      <img src="~/static/img/l5/or.svg" data-aos="fade-down" alt="ot" />
-      <img src="~/static/img/l5/not.svg" data-aos="fade-down" alt="not" />
-      <img src="~/static/img/l5/given.svg" data-aos="fade-down" alt="given" />
+      <img src="~/static/img/l5/and.svg" data-aos="fade-down" alt="and" class="formula"/>
+      <img src="~/static/img/l5/or.svg" data-aos="fade-down" alt="ot" class="formula"/>
+      <img src="~/static/img/l5/not.svg" data-aos="fade-down" alt="not" class="formula"/>
+      <img src="~/static/img/l5/given.svg" data-aos="fade-down" alt="given" class="formula"/>
       <p data-aos="fade-down">
         Another concept that has fascinated me in this lecture was the Bernoulli
-        trial which is each performance of an experiment with two possible
-        outcomes such as a series of bits or a toss of a coin. The formula for
+        trial which is the performance of an experiment with two possible
+        outcomes such as a series of bits. The formula for
         finding the probability of exactly <i>k</i> successes in
         <i>n</i> independent Bernoulli trial with a probability of success
         <i>p</i> and probability of failure <i>q</i> is expressed as:
@@ -144,6 +144,11 @@ img {
   border-radius: 15px;
 }
 
+.formula{
+  width: 50%;
+  height: auto;
+}
+
 @media only screen and (max-width: 472px) {
   main {
     margin-bottom: 5vh;
@@ -151,7 +156,7 @@ img {
   }
 
   img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
   }
 }

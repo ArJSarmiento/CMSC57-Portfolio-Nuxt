@@ -2,51 +2,60 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-        <img src="~/assets/t6.png" data-aos="fade-down" alt="counting"/>
+      <img src="~/assets/t6.png" data-aos="fade-down" alt="counting" />
       <p data-aos="fade-down">
-        &emsp;The starting lessons of Discrete Mathematical Structures in Computer
-        Science II were certainly not what I have expected. At first, I thought
-        we would dive deeper into the previous semester’s topic on linear
-        algebra and its applications in computer science. I was surprised when
-        we started off with a much easier topic of Basic Counting Principles.
-        Little did I know that this lesson would be the foundation of what was
-        yet to come.
-      </p>
-      <p data-aos="fade-down">
-        &emsp;The main principles introduced in this lesson were the Product Rule and
-        the Sum Rule. The product rule or multiplication principle states that
-        if there are a ways of doing something and b ways of doing another
-        thing, then there are a · b ways of performing both actions.
-      </p>
-        <img src="~/static/img/l1/productRule.png" data-aos="fade-down" alt="product rule">
-      <p data-aos="fade-down">
-        &emsp;The Sum rule, on the other hand, states that if a task can be done
-        either in one of a ways or in one of b ways, where none of the set of a
-        ways is the same as any of the set of b ways, then there are a+b ways to
-        do the task.
-      </p>
-        <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
-      <p data-aos="fade-down" >
-        &emsp;These principle can be applied in almost any field of mathematics but in the course, it is often used in
-        combinations and permutations. I was fascinated by how such a simple principle could be applied in so many
-        industries.
-        One common problem that intrigued me was the one below:
-      </p>
-      <code>
-        How many strings are there of 5 lowercase alphabet letters that have the letter ‘x’ in them? The same letter can repeat multiple times in the same string?
-      </code>
-      <p data-aos="fade-down">
-        &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
-        string with an x in them we must subtract this with the number of strings with out an x which is
-        256<sup>5</sup>. Therefore, 266<sup>5</sup>-256<sup>5</sup> is equal to 2,115,751.
+        &emsp;During the summer of 2021, I spent some of my time studying
+        Machine Learning and Data Analysis. Within that period, I played with
+        many ML models such as Linear Regression, Decision Tree Regression,
+        Random Forrest Regression, Logistic Regression, and many more. I have
+        made some predictions, visualizations, and classifications on numerous
+        data sets on the web. Despite having experience in the discipline, I had
+        little to no intuition about its mathematical foundations. I was only
+        familiar with Linear Regression in Statistics but other than that I was
+        clueless.
       </p>
       <p data-aos="fade-down">
-        &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
-        online system it's amazing how unlikely a user can just guess a password considering how large the result is.
-        It's much more mind-blowing if you realize that we know this fact because of the utilization of the simple rules
-        mentioned above.
+        &emsp;It was only when I learned about Bayes Theorem that I had my first
+        glimpse into the inner workings of Data Science. I was amazed by the
+        role of Probability Theory especially Conditional Probability in
+        computing the Bayes Theorem formula below.
       </p>
-      <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >
+      <img
+        src="~/static/img/l5/given.svg"
+        data-aos="fade-down"
+        alt="given"
+        class="formula"
+      />
+      <img
+        src="~/static/img/l6/bayes.svg"
+        data-aos="fade-down"
+        alt="bayes"
+        class="formula"
+      />
+      <p data-aos="fade-down">
+        &emsp;The spam filter and the disease problems also worked great in
+        facilitating my understanding as I have also known that these are some
+        applications of Machine Learning. This lesson has further cemented my
+        belief that Artificial Intelligence is heavily interrelated with
+        Statistics.
+      </p>
+      <img
+        src="~/static/img/l6/machine.jpg"
+        data-aos="fade-down"
+        alt="machine"
+      />
+      <p data-aos="fade-down">
+        &emsp;Learning Bayes Theorem in this chapter really opened my eyes to
+        how mathematical concepts play a fundamental role in these technologies.
+        It also made me appreciate the level of abstraction I’m working with
+        when I code on a Jupyter Notebook. My perspective has completely changed
+        and I am grateful that
+      </p>
+      <img
+        src="~/static/img/l6/jupyter.png"
+        data-aos="fade-down"
+        alt="jupyter"
+      />
     </section>
   </main>
 </template>
@@ -89,31 +98,36 @@ section {
   gap: 20px;
 }
 
-code{
+code {
   text-align: center;
-  margin:10px 0;
+  margin: 10px 0;
 }
 
-h2{
+h2 {
   justify-content: center;
   text-align: center;
   font-weight: 600;
   line-height: 30px;
 }
 
-p{
+p {
   text-align: justify;
   font-weight: 500;
   font-size: 1rem;
   line-height: 35px;
 }
 
-img{
+img {
   max-height: 50vh;
   width: auto;
   padding: 10px;
 
   border-radius: 15px;
+}
+
+.formula{
+  width: 50%;
+  height: auto;
 }
 
 @media only screen and (max-width: 472px) {
@@ -122,8 +136,8 @@ img{
     padding: 0 7.5vw;
   }
   img {
-    width: 100% ;
-    height: auto ;
+    width: 100% !important;
+    height: auto;
   }
 }
 </style>

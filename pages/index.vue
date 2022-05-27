@@ -1,7 +1,8 @@
 <template>
   <main>
     <Landing/>
-      <Topics/>
+    <Topics/>
+    <about-the-author/>
   </main>
 </template>
 

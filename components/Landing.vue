@@ -73,7 +73,7 @@ export default {
     z-index: 2;
   }
 
-  @media only screen and (max-width: 953px) {
+  @media only screen and (max-width: 1035px) {
     *{
       text-align: center;
     }
