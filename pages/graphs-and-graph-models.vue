@@ -2,51 +2,41 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-        <img src="~/assets/t7.png" data-aos="fade-down" alt="counting"/>
+      <img src="~/assets/t7.png" data-aos="fade-down" alt="counting" />
       <p data-aos="fade-down">
-        &emsp;The starting lessons of Discrete Mathematical Structures in Computer
-        Science II were certainly not what I have expected. At first, I thought
-        we would dive deeper into the previous semester’s topic on linear
-        algebra and its applications in computer science. I was surprised when
-        we started off with a much easier topic of Basic Counting Principles.
-        Little did I know that this lesson would be the foundation of what was
-        yet to come.
+        &emsp;Before going through this lesson, I've only encountered graphs in a Data Structures and Algorithms course
+        I took a while ago. I was aware that graphs were discrete structures consisting of vertices and edges that
+        connect these vertices. But I have never really dived deep into their different types and real-world
+        applications. It was only when I studied this week’s lesson that I realized how ubiquitous graphs really are in
+        our digital world.
       </p>
       <p data-aos="fade-down">
-        &emsp;The main principles introduced in this lesson were the Product Rule and
-        the Sum Rule. The product rule or multiplication principle states that
-        if there are a ways of doing something and b ways of doing another
-        thing, then there are a · b ways of performing both actions.
+        &emsp;The types of graphs are as follows:
       </p>
-        <img src="~/static/img/l1/productRule.png" data-aos="fade-down" alt="product rule">
+      <ol data-aos="fade-down">
+        <li>Simple graph</li>
+        <li>Multigraph</li>
+        <li>Pseudograph </li>
+        <li>Directed graph </li>
+        <li>Directed multigraph</li>
+      </ol>
       <p data-aos="fade-down">
-        &emsp;The Sum rule, on the other hand, states that if a task can be done
-        either in one of a ways or in one of b ways, where none of the set of a
-        ways is the same as any of the set of b ways, then there are a+b ways to
-        do the task.
+        &emsp;Regardless of which type of graph we are dealing with, roads between cities are used as the prime example
+        of real-world application of graphs. It just takes a certain level of understanding to identify which type of
+        graph one should use, as established in the week’s Problem Set. I can imagine how Google Maps is implemented as
+        a large graph of every street as an edge and every destination as a vertex. I also assume that its
+        direction-finding feature is based on a Shortest-Path finding algorithm similar to Dijkstra's algorithm.
       </p>
-        <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
-      <p data-aos="fade-down" >
-        &emsp;These principle can be applied in almost any field of mathematics but in the course, it is often used in
-        combinations and permutations. I was fascinated by how such a simple principle could be applied in so many
-        industries.
-        One common problem that intrigued me was the one below:
-      </p>
-      <code>
-        How many strings are there of 5 lowercase alphabet letters that have the letter ‘x’ in them? The same letter can repeat multiple times in the same string?
-      </code>
+      <img src="~/static/img/l7/maps.jpg" data-aos="fade-down" alt="maps" />
       <p data-aos="fade-down">
-        &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
-        string with an x in them we must subtract this with the number of strings with out an x which is
-        256<sup>5</sup>. Therefore, 266<sup>5</sup>-256<sup>5</sup> is equal to 2,115,751.
+        &emsp;I find that from video games to web-based networks, the possibilities are certainly endless with the
+        applications of this abstract concept. Even the search engine for Google itself was based on a network of
+        interconnected hyperlinks modeled as graphs. I look forward to creating meaningful programs that utilize graphs
+        and
+        their unique properties. Such possibilities, especially in this era of Artificial Intelligence and Quantum
+        Computing, makes Computer Science a very exciting field to be involved in.
       </p>
-      <p data-aos="fade-down">
-        &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
-        online system it's amazing how unlikely a user can just guess a password considering how large the result is.
-        It's much more mind-blowing if you realize that we know this fact because of the utilization of the simple rules
-        mentioned above.
-      </p>
-      <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >
+      <img src="~/static/img/l7/network.jpg" data-aos="fade-down" alt="network" />
     </section>
   </main>
 </template>
@@ -89,26 +79,26 @@ section {
   gap: 20px;
 }
 
-code{
+code {
   text-align: center;
-  margin:10px 0;
+  margin: 10px 0;
 }
 
-h2{
+h2 {
   justify-content: center;
   text-align: center;
   font-weight: 600;
   line-height: 30px;
 }
 
-p{
+p {
   text-align: justify;
   font-weight: 500;
   font-size: 1rem;
   line-height: 35px;
 }
 
-img{
+img {
   max-height: 50vh;
   width: auto;
   padding: 10px;
@@ -121,9 +111,10 @@ img{
     margin-bottom: 5vh;
     padding: 0 7.5vw;
   }
+
   img {
-    width: 100% ;
-    height: auto ;
+    width: 100%;
+    height: auto;
   }
 }
 </style>

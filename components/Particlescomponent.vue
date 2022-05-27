@@ -7,7 +7,7 @@
         linesColor="#2D2D2D"
         shapeType="edge"
         out_mode="bounce"
-        :particlesNumber="150"
+        :particlesNumber="120"
         :lineWidth="1"
         :lineOpacity="0.5"
         :lineDistance="100"

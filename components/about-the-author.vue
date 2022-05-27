@@ -1,31 +1,33 @@
 <template>
   <section>
-    <h1 data-aos="fade-down">About the Author</h1>
-    <div class="info" data-aos="fade-down">
-      <img src="~/static/img/profile.jpeg" alt="profile" data-aos="fade-down"/>
-      <div data-aos="fade-down">
-        <h3>&emsp;Hello my name is Arnel Jan Sarmiento! <span>
-          A coffee enthusiast and Computer Science student at the
-          University of the Philippines Mindanao. I believe
-          in the power of learning and teamwork. I am actively looking for
-          opportunities to collaborate and create meaningful projects in tech.
-        </span></h3>
-        <div class="social-buttons">
-          <a href="mailto:rneljan@gmail.com" target="_blank" class="social-buttons__button social-button social-button--mail" aria-label="Email">
-            <font-awesome-icon icon="fa-solid fa-envelope" />
-          </a>
-          <a href="https://www.facebook.com/Arnel.Jansarmiento.2003/" target="_blank" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
-           <font-awesome-icon :icon="['fab', 'fa-facebook-f']" />
-          </a>
-          <a href="https://www.linkedin.com/in/ArJSarmiento/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
-             <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-          </a>
-          <a href="https://github.com/ArJSarmiento/" target="_blank" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-             <font-awesome-icon icon="fa-brands fa-github" />
-          </a>
+    <article>
+      <h1 data-aos="fade-down">About the Author</h1>
+      <div class="info" data-aos="fade-down">
+        <img src="~/static/img/profile.jpeg" alt="profile" data-aos="fade-down"/>
+        <div data-aos="fade-down">
+          <h3>&emsp;Hello my name is Arnel Jan Sarmiento! <span>
+            A coffee enthusiast and Computer Science student at the
+            University of the Philippines Mindanao. I believe
+            in the power of learning and teamwork. I am actively looking for
+            opportunities to collaborate and create meaningful projects in tech.
+          </span></h3>
+          <div class="social-buttons">
+            <a href="mailto:rneljan@gmail.com" target="_blank" class="social-buttons__button social-button social-button--mail" aria-label="Email">
+              <font-awesome-icon icon="fa-solid fa-envelope" />
+            </a>
+            <a href="https://www.facebook.com/Arnel.Jansarmiento.2003/" target="_blank" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+            <font-awesome-icon :icon="['fab', 'fa-facebook-f']" />
+            </a>
+            <a href="https://www.linkedin.com/in/ArJSarmiento/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+              <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+            </a>
+            <a href="https://github.com/ArJSarmiento/" target="_blank" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+              <font-awesome-icon icon="fa-brands fa-github" />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   </section>
 </template>
 <script>
@@ -40,10 +42,13 @@ h1 {
   font-size: 2rem;
 }
 section {
-  display: grid;
-  grid-template-columns: 1fr;
   margin: 10vh 0;
   padding: 0 10vw;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 30px;
   align-items: center;
   justify-items: center;
