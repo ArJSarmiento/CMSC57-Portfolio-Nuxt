@@ -26,7 +26,7 @@
         probability that 1 precedes 3?
       </code>
       <p data-aos="fade-down">
-        &emsp;To solve this problem we must generate all the permutations of {1,
+        &emsp;To solve this problem, we must generate all the permutations of {1,
         2, 3} in which there are 3! = 6.
       </p>
       <p data-aos="fade-down">These are:</p>

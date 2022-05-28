@@ -27,7 +27,7 @@
       </p>
         <img src="~/static/img/l1/sumRule.svg" data-aos="fade-down" alt="sum rule">
       <p data-aos="fade-down" >
-        &emsp;These principle can be applied in almost any field of mathematics but in the course, it is often used in
+        &emsp;These principles can be applied in almost any field of mathematics but in the course, it is often used in
         combinations and permutations. I was fascinated by how such a simple principle could be applied in so many
         industries.
         One common problem that intrigued me was the one below:
@@ -37,14 +37,14 @@
       </code>
       <p data-aos="fade-down">
         &emsp;Since repeating is allowed, the number of strings of 5 lowercase alphabet letters is 26<sup>5</sup>. To get the
-        string with an x in them we must subtract this with the number of strings with out an x which is
+        string with an x in them we must subtract this with the number of strings without an x which is
         25<sup>5</sup>. Therefore, the answer is 26<sup>5</sup>-25<sup>5</sup> which is equal to 2,115,751.
       </p>
       <p data-aos="fade-down">
         &emsp;As we seen above, the answers to these questions come by the millions. Assuming that this was a password for an
         online system it's amazing how unlikely a user can just guess a password considering how large the result is.
         It's much more mind-blowing if you realize that we know this fact by using the simple rules we
-        mentioned above.
+        learned above.
       </p>
       <img src="~/static/img/l1/password.jpg" data-aos="fade-down" alt="password" >
     </section>

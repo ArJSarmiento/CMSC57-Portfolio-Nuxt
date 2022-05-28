@@ -32,7 +32,7 @@
       />
       <p data-aos="fade-down">
         &emsp;The thought that I am still a Computer Science Freshman and I just
-        made a program that could try every possible password of an online
+        made a program that could attempt every possible password of an online
         system certainly cemented my belief in the value of cybersecurity. I
         could only imagine the level of sophistication needed to make an
         algorithm that can crack a much more modern and secure website. I am

@@ -54,7 +54,7 @@
       <p data-aos="fade-down">
         &emsp;It is simply amazing how such random and seemingly trivial questions can transform into theorems that
         become the foundations of modern technology. It is so fascinating to discover how these stories of invention
-        unfold and to witness their applications centuries after. It's funny how Carl Gottlieb Ehler and Leonhard
+        unfold and to witness their applications centuries after. I also find it comical how Carl Gottlieb Ehler and Leonhard
         Euler's question about bridges led to Google, a system that can answer almost any question.
       </p>
       <img src="~/static/img/l8/euler.jpg" data-aos="fade-down" alt="euler">

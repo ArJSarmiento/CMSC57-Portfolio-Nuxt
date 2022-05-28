@@ -30,7 +30,7 @@
       <img src="~/static/img/l7/maps.jpg" data-aos="fade-down" alt="maps" />
       <p data-aos="fade-down">
         &emsp;I find that from video games to web-based networks, the possibilities are certainly endless with the
-        applications of this abstract concept. Even the search engine for Google itself was based on a network of
+        applications of this abstract concept. Even the search engine for Google itself was once based on a network of
         interconnected hyperlinks modeled as graphs. I look forward to creating meaningful programs that utilize graphs
         and
         their unique properties. Such possibilities, especially in this era of Artificial Intelligence and Quantum

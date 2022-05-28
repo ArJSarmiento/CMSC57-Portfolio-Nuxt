@@ -7,6 +7,7 @@
         &emsp;For me, the topic of Algebraic Structure and Groups has been the newest and most challenging concept I
         have ever encountered in the course. I simply have never encountered something like it.
       </p>
+      <img src="~/static/img/l4/symmetries.png" data-aos="fade-down" alt="product rule" class="code">
       <p data-aos="fade-down">
         &emsp;At first, the introduction with symmetries of the square and its segway toward binary operations was very
         unintuitive for me. It was only when I learned the topic of groups that I found their connection. To review, a
@@ -23,7 +24,6 @@
           There exists an inverse element <i>e</i> for all elements in <i>S</i>
         </li>
       </ol>
-      <img src="~/static/img/l4/symmetries.png" data-aos="fade-down" alt="product rule" class="code">
       <p data-aos="fade-down">
         &emsp;Knowing this, I was amazed to see how this can be used to model geometric patterns such as the symmetries
         of the square problem we have encountered previously. Later on, I learned more examples of groups through the
