@@ -17,7 +17,7 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/png', href: '../img/icon.png' },
+            { rel: 'icon', type: 'image/png', href: 'img/icon.png' },
             { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Epilogue&display=swap" },
         ]
     },
