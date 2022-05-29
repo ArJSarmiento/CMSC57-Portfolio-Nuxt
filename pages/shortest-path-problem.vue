@@ -12,7 +12,7 @@
       </p>
       <img src="~/static/img/l9/SPACE-SHOOTER.gif" data-aos="fade-down" alt="SPACE-SHOOTER" class="code">
       <p data-aos="fade-down">
-        &emsp;Edsger Wybe Dijkstra renowned Computer Scientist and author of the Dijkstra Algorithm has provided a
+        &emsp;Edsger Wybe Dijkstra, renowned Computer Scientist and author of the Dijkstra Algorithm, has provided a
         series of steps that makes pathfinding in graphs a much more efficient task. The pseudocode for Dijkstra
         Algorithm is as follows:
       </p>
@@ -100,8 +100,9 @@ img {
 }
 
 .code {
-  max-height: 70vh;
-  padding: 0;
+  width: 70%;
+  height: auto;
+  max-height:none;
 }
 
 @media only screen and (max-width: 472px) {
@@ -111,8 +112,9 @@ img {
   }
 
   img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
+    max-height: 1000vh;
   }
 }
 </style>

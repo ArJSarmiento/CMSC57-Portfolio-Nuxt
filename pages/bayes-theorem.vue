@@ -138,6 +138,7 @@ img {
   img {
     width: 100% !important;
     height: auto;
+    max-height: 500vh;
   }
 }
 </style>

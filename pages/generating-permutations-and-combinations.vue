@@ -112,7 +112,9 @@ img {
 }
 
 .code {
-  max-height: 70vh;
+  width: 70%;
+  height: auto;
+  max-height:none;
 }
 
 @media only screen and (max-width: 472px) {

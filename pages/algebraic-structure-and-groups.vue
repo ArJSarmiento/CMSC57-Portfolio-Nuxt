@@ -7,7 +7,7 @@
         &emsp;For me, the topic of Algebraic Structure and Groups has been the newest and most challenging concept I
         have ever encountered in the course. I simply have never encountered something like it.
       </p>
-      <img src="~/static/img/l4/symmetries.png" data-aos="fade-down" alt="product rule" class="code">
+      <img src="~/static/img/l4/symmetries.png" data-aos="fade-down" alt="product rule" >
       <p data-aos="fade-down">
         &emsp;At first, the introduction with symmetries of the square and its segway toward binary operations was very
         unintuitive for me. It was only when I learned the topic of groups that I found their connection. To review, a
@@ -113,7 +113,9 @@ img {
   border-radius: 15px;
 }
 .code {
-  max-height: 70vh;
+  width: 70%;
+  height: auto;
+  max-height:none;
 }
 
 @media only screen and (max-width: 472px) {
@@ -125,6 +127,7 @@ img {
   img {
     width: 100%;
     height: auto;
+    max-height: 1000vh;
   }
 }
 </style>

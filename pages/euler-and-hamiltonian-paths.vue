@@ -134,8 +134,9 @@ img {
   }
 
   img {
-    width: 100%;
-    height: auto;
+    width: 100% ;
+    height: auto ;
+    max-height:1000vh;
   }
 }
 </style>

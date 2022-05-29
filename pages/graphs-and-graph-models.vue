@@ -106,15 +106,16 @@ img {
   border-radius: 15px;
 }
 
-@media only screen and (max-width: 472px) {
+@media only screen and (max-width: 720px) {
   main {
     margin-bottom: 5vh;
     padding: 0 7.5vw;
   }
 
   img {
-    width: 100%;
-    height: auto;
+    width: 100% ;
+    height: auto ;
+    max-height:1000vh;
   }
 }
 </style>

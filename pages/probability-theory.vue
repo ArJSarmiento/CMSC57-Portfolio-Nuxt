@@ -2,17 +2,22 @@
   <main>
     <h2>{{ title }}</h2>
     <section>
-      <img src="~/assets/t5.png" data-aos="fade-down" alt="counting" />
+      <img
+        src="~/assets/t5.png"
+        data-aos="fade-down"
+        alt="counting"
+      />
       <p data-aos="fade-down">
-        &emsp;The previous lessons established that with the topic of <NuxtLink to="/basics-of-counting">Basics of
-        Counting</NuxtLink> with Combinatorics we are able to calculate the number of
-        possibilities in which an event can occur. I realized that we can now
-        apply this with Probability Theory to solve much more complex
-        probability problems. But first, we must define probability as the
-        number of times an event can occur over the number of trials.
+        &emsp;The previous lessons established that with the topic of
+        <NuxtLink to="/basics-of-counting">Basics of Counting</NuxtLink> with
+        Combinatorics we are able to calculate the number of possibilities in
+        which an event can occur. I realized that we can now apply this with
+        Probability Theory to solve much more complex probability problems. But
+        first, we must define probability as the number of times an event can
+        occur over the number of trials.
       </p>
       <img
-        src="~/static/img/l5/definition.png"
+        src="/img/l5/definition.png"
         data-aos="fade-down"
         alt="definition"
       />
@@ -26,8 +31,8 @@
         probability that 1 precedes 3?
       </code>
       <p data-aos="fade-down">
-        &emsp;To solve this problem, we must generate all the permutations of {1,
-        2, 3} in which there are 3! = 6.
+        &emsp;To solve this problem, we must generate all the permutations of
+        {1, 2, 3} in which there are 3! = 6.
       </p>
       <p data-aos="fade-down">These are:</p>
       <code data-aos="fade-down">
@@ -42,22 +47,43 @@
       </p>
       <p data-aos="fade-down">
         &emsp;Below are other probability theorems that I also found useful in
-        probability problems and more advanced topics such as <NuxtLink to="/bayes-theorem">Bayes Theorem</NuxtLink>.
+        probability problems and more advanced topics such as
+        <NuxtLink to="/bayes-theorem">Bayes Theorem</NuxtLink>.
       </p>
-      <img src="~/static/img/l5/and.svg" data-aos="fade-down" alt="and" class="formula"/>
-      <img src="~/static/img/l5/or.svg" data-aos="fade-down" alt="ot" class="formula"/>
-      <img src="~/static/img/l5/not.svg" data-aos="fade-down" alt="not" class="formula"/>
-      <img src="~/static/img/l5/given.svg" data-aos="fade-down" alt="given" class="formula"/>
+      <img
+        src="/img/l5/and.svg"
+        data-aos="fade-down"
+        alt="and"
+        class="formula"
+      />
+      <img
+        src="/img/l5/or.svg"
+        data-aos="fade-down"
+        alt="ot"
+        class="formula"
+      />
+      <img
+        src="/img/l5/not.svg"
+        data-aos="fade-down"
+        alt="not"
+        class="formula"
+      />
+      <img
+        src="/img/l5/given.svg"
+        data-aos="fade-down"
+        alt="given"
+        class="formula"
+      />
       <p data-aos="fade-down">
         Another concept that has fascinated me in this lecture was the Bernoulli
         trial which is the performance of an experiment with two possible
-        outcomes such as a series of bits. The formula for
-        finding the probability of exactly <i>k</i> successes in
-        <i>n</i> independent Bernoulli trial with a probability of success
-        <i>p</i> and probability of failure <i>q</i> is expressed as:
+        outcomes such as a series of bits. The formula for finding the
+        probability of exactly <i>k</i> successes in <i>n</i> independent
+        Bernoulli trial with a probability of success <i>p</i> and probability
+        of failure <i>q</i> is expressed as:
       </p>
       <img
-        src="~/static/img/l5/bernoulli.png"
+        src="/img/l5/bernoulli.png"
         data-aos="fade-down"
         alt="bernoulli"
       />
@@ -74,7 +100,11 @@
         knowledge of these principles, we can predict and manipulate the choice
         of the dice who play god.
       </p>
-      <img src="~/static/img/l5/coin.jpg" data-aos="fade-down" alt="coin" />
+      <img
+        src="/img/l5/coin.jpg"
+        data-aos="fade-down"
+        alt="coin"
+      />
     </section>
   </main>
 </template>
@@ -136,7 +166,7 @@ p {
   line-height: 35px;
 }
 
-img {
+img{
   max-height: 50vh;
   width: auto;
   padding: 10px;
@@ -144,20 +174,21 @@ img {
   border-radius: 15px;
 }
 
-.formula{
+.formula {
   width: 50%;
   height: auto;
 }
 
-@media only screen and (max-width: 472px) {
+@media only screen and (max-width: 720px) {
   main {
     margin-bottom: 5vh;
     padding: 0 7.5vw;
   }
 
-  img {
+  img{
     width: 100% !important;
     height: auto;
+    max-height: 500vh;
   }
 }
 </style>
