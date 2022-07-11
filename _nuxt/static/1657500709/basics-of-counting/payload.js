@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/basics-of-counting", {data:[{}],fetch:{},mutations:void 0});

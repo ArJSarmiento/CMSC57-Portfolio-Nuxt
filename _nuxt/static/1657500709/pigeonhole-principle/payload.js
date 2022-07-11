@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pigeonhole-principle", {data:[{}],fetch:{},mutations:void 0});

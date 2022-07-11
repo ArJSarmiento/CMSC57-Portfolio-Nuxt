@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/euler-and-hamiltonian-paths", {data:[{}],fetch:{},mutations:void 0});

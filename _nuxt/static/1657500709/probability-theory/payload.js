@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/probability-theory", {data:[{}],fetch:{},mutations:void 0});

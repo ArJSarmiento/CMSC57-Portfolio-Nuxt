@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/algebraic-structure-and-groups", {data:[{}],fetch:{},mutations:void 0});

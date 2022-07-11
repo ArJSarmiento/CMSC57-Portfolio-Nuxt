@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/generating-permutations-and-combinations", {data:[{}],fetch:{},mutations:void 0});

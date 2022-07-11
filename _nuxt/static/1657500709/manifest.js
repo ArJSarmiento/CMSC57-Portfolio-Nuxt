@@ -1,0 +1,1 @@
+__NUXT_JSONP__("manifest.js", {routes:["\u002F","\u002Falgebraic-structure-and-groups","\u002Feuler-and-hamiltonian-paths","\u002Fbayes-theorem","\u002Fpigeonhole-principle","\u002Fgenerating-permutations-and-combinations","\u002Fbasics-of-counting","\u002Fshortest-path-problem","\u002Fgraphs-and-graph-models","\u002Fprobability-theory"]})

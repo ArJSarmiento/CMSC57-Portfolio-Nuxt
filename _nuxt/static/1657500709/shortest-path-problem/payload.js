@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/shortest-path-problem", {data:[{}],fetch:{},mutations:void 0});

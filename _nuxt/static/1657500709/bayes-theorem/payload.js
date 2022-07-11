@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bayes-theorem", {data:[{}],fetch:{},mutations:void 0});
