@@ -9,7 +9,7 @@
       />
       <p data-aos="fade-down">
         &emsp;The previous lessons established that with the topic of
-        <NuxtLink to="/basics-of-counting">Basics of Counting</NuxtLink> with
+        <NuxtLink to="~/basics-of-counting">Basics of Counting</NuxtLink> with
         Combinatorics we are able to calculate the number of possibilities in
         which an event can occur. I realized that we can now apply this with
         Probability Theory to solve much more complex probability problems. But
@@ -17,7 +17,7 @@
         occur over the number of trials.
       </p>
       <img
-        src="/img/l5/definition.png"
+        src="~/img/l5/definition.png"
         data-aos="fade-down"
         alt="definition"
       />
@@ -48,28 +48,28 @@
       <p data-aos="fade-down">
         &emsp;Below are other probability theorems that I also found useful in
         probability problems and more advanced topics such as
-        <NuxtLink to="/bayes-theorem">Bayes Theorem</NuxtLink>.
+        <NuxtLink to="~/bayes-theorem">Bayes Theorem</NuxtLink>.
       </p>
       <img
-        src="/img/l5/and.svg"
+        src="~/img/l5/and.svg"
         data-aos="fade-down"
         alt="and"
         class="formula"
       />
       <img
-        src="/img/l5/or.svg"
+        src="~/img/l5/or.svg"
         data-aos="fade-down"
         alt="ot"
         class="formula"
       />
       <img
-        src="/img/l5/not.svg"
+        src="~/img/l5/not.svg"
         data-aos="fade-down"
         alt="not"
         class="formula"
       />
       <img
-        src="/img/l5/given.svg"
+        src="~/img/l5/given.svg"
         data-aos="fade-down"
         alt="given"
         class="formula"
@@ -83,7 +83,7 @@
         of failure <i>q</i> is expressed as:
       </p>
       <img
-        src="/img/l5/bernoulli.png"
+        src="~/img/l5/bernoulli.png"
         data-aos="fade-down"
         alt="bernoulli"
       />
@@ -101,7 +101,7 @@
         of the dice who play god.
       </p>
       <img
-        src="/img/l5/coin.jpg"
+        src="~/img/l5/coin.jpg"
         data-aos="fade-down"
         alt="coin"
       />
