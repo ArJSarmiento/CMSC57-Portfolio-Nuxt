@@ -17,7 +17,7 @@
         occur over the number of trials.
       </p>
       <img
-        src="~/img/l5/definition.png"
+        src="~/static/img/l5/definition.png"
         data-aos="fade-down"
         alt="definition"
       />
@@ -51,25 +51,25 @@
         <NuxtLink to="/bayes-theorem">Bayes Theorem</NuxtLink>.
       </p>
       <img
-        src="~/img/l5/and.svg"
+        src="~/static/img/l5/and.svg"
         data-aos="fade-down"
         alt="and"
         class="formula"
       />
       <img
-        src="~/img/l5/or.svg"
+        src="~/static/img/l5/or.svg"
         data-aos="fade-down"
         alt="ot"
         class="formula"
       />
       <img
-        src="~/img/l5/not.svg"
+        src="~/static/img/l5/not.svg"
         data-aos="fade-down"
         alt="not"
         class="formula"
       />
       <img
-        src="~/img/l5/given.svg"
+        src="~/static/img/l5/given.svg"
         data-aos="fade-down"
         alt="given"
         class="formula"
@@ -83,7 +83,7 @@
         of failure <i>q</i> is expressed as:
       </p>
       <img
-        src="~/img/l5/bernoulli.png"
+        src="~/static/img/l5/bernoulli.png"
         data-aos="fade-down"
         alt="bernoulli"
       />
@@ -101,7 +101,7 @@
         of the dice who play god.
       </p>
       <img
-        src="~/img/l5/coin.jpg"
+        src="~/static/img/l5/coin.jpg"
         data-aos="fade-down"
         alt="coin"
       />
