@@ -9,7 +9,7 @@
       />
       <p data-aos="fade-down">
         &emsp;The previous lessons established that with the topic of
-        <NuxtLink to="~/basics-of-counting">Basics of Counting</NuxtLink> with
+        <NuxtLink to="/basics-of-counting">Basics of Counting</NuxtLink> with
         Combinatorics we are able to calculate the number of possibilities in
         which an event can occur. I realized that we can now apply this with
         Probability Theory to solve much more complex probability problems. But
@@ -48,7 +48,7 @@
       <p data-aos="fade-down">
         &emsp;Below are other probability theorems that I also found useful in
         probability problems and more advanced topics such as
-        <NuxtLink to="~/bayes-theorem">Bayes Theorem</NuxtLink>.
+        <NuxtLink to="/bayes-theorem">Bayes Theorem</NuxtLink>.
       </p>
       <img
         src="~/img/l5/and.svg"
